@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список страниц</title>
+</head>
+<body>
+    
+<h1>Список всех элементов и страниц</h1>
+<div class="list">
+    <div class="item">
+        <div class="name">Регистрация</div>
+        <div class="link"><a href="/registration.html">ссылка</a></div>
+    </div>
+    <div class="item">
+        <div class="name">Подтверждение email</div>
+        <div class="link"><a href="/email-code.html">ссылка</a></div>
+    </div>
+    <div class="item">
+        <div class="name">Авторизация</div>
+        <div class="link"><a href="/auth.html">ссылка</a></div>
+    </div>
+    <div class="item">
+        <div class="name">Восстановление пароля</div>
+        <div class="link"><a href="/restore-pass.html">ссылка</a></div>
+    </div>
+    <div class="item">
+        <div class="name">Введите код активации</div>
+        <div class="link"><a href="/restore-code.html">ссылка</a></div>
+    </div>
+    <div class="item">
+        <div class="name">Введите новый пароль</div>
+        <div class="link"><a href="/new-pass.html">ссылка</a></div>
+    </div>
+    <div class="item">
+        <div class="name">404</div>
+        <div class="link"><a href="/404.html">ссылка</a></div>
+    </div>
+    <div class="item">
+        <div class="name">500</div>
+        <div class="link"><a href="/500.html">ссылка</a></div>
+    </div>
+    <div class="item">
+        <div class="name"></div>
+        <div class="link"><a href="">ссылка</a></div>
+    </div>
+    <div class="item">
+        <div class="name"></div>
+        <div class="link"><a href="">ссылка</a></div>
+    </div>
+</div>
+
+<style>
+    .list {
+        display: flex;
+        justify-content: space-between;
+        width: 40%;
+        flex-direction: column;
+    }
+    .list .item {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        border: 1px solid #000;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    .list .item * {
+        
+    }
+    
+</style>
+</body>
+</html>
