@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Redmine</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+  <body>
+    
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-4 header__logo">
+                    <a href="/">
+                        <img src="assets/img/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-6 header__nav">
+                    <nav>
+                        <ul class="header__nav_list">
+                            <li>
+                                <a href="#">О сервисе</a>
+                            </li>
+                            <li>
+                                <a href="#">Применение</a>
+                            </li>
+                            <li>
+                                <a href="#">Функции</a>
+                            </li>
+                            <li>
+                                <a href="#">Преимущества</a>
+                            </li>
+                            <li>
+                                <a href="#">Стоимость</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-6 col-8 header__burger_nav">
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="form__section">
+        <div class="container">
+            <div class="row">
+                <form class="form registration__form">
+                    <div class="form__title">Введите ваши данные, чтобы пройти регистрацию<span class="subtitle"></span></div>
+                    <div class="form__list">
+                        <div class="form__group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" placeholder="Введите E-mail">
+                        </div>
+                    
+                        <div class="form__group">
+                            <label for="password">Пароль:</label>
+                            <input type="password" id="password" name="password" placeholder="Введите пароль">
+                        </div>
+                    
+                        <div class="form__group">
+                            <label for="company">Компания:</label>
+                            <input type="text" id="company" name="company" placeholder="Введите название компании">
+                        </div>
+                    
+                        <div class="form__group">
+                            <label for="host">Хост:</label>
+                            <input type="text" id="host" name="host" placeholder="Введите название хоста">
+                        </div>
+                    
+                        <div class="form__group">
+                            <label for="inn">ИНН:</label>
+                            <input type="text" id="inn" name="inn" placeholder="Введите ИНН">
+                        </div>
+                    
+                        <div class="form__group">
+                            <p class="form__agree_text">Нажимая кнопку отправить, вы соглашаетесь <br><a href="">с политикой конфиденциальных данных</a></p>
+                        </div>
+                    
+                        <div class="form__group">
+                            <button type="submit" class="form__btn btn__send">Отправить</button>
+                        </div>
+                    </div>                    
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 footer__logo">
+                    <div class="logo">OOO «Симплекс 2.0»</div>
+                    <div class="txt info">ИНН/КПП: 9719018363/771901001 <br> ОГРН: 1217700402578</div>
+                </div>
+                <div class="col-lg-4 footer__nav">
+                    <ul>
+                        <li><a href="">О сервисе</a></li>
+                        <li><a href="">Преимущества</a></li>
+                        <li><a href="">Применение</a></li>
+                        <li><a href="">Стоимость</a></li>
+                        <li><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 footer__contact">
+                    <div class="title">Контактные данные</div>
+                    <div class="txt info">Юридический адрес: 105118, г. Москва, проспект Буденного, д. 30А, офис 402
+                    </div>
+                    <div class="txt info">Телефон: <a href="tel:+79264265555">+7(926)426-55-55</a></div>
+                    <div class="txt info">Почта: <a href="mailto:info@simplex-software.ru">info@simplex-software.ru</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

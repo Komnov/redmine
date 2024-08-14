@@ -1,0 +1,291 @@
+// Form styles ===================================
+.form__section
+    margin: 90px 0
+    .form
+        margin: 0 auto
+        max-width: 800px
+        background-color: #F8F8F8
+        padding: 65px 10%
+    .form__title
+        font-family: 'Roboto', 'Arial', sans-serif
+        color: #535050
+        font-weight: 600
+        font-size: 3rem
+        text-align: center
+        display: flex
+        flex-direction: column
+        .subtitle
+            font-size: 1.6rem
+            color: #787575
+            font-weight: 300
+            margin-top: 10px
+    .form__list
+        margin: 25px 0 0 0
+        .form__group
+            display: flex
+            flex-direction: column
+            margin: 0 0 10px 0
+            label
+                font-family: 'Alef', 'Arial', sans-serif
+                font-size: 1.6rem
+                color: #787575
+                margin: 0 0 10px 0
+            input
+                border: 1px solid #C9DCEE
+                border-radius: 10px
+                padding: 20px 45px
+                color: #535050
+                &::placeholder
+                    color: #C9DCEE
+                &:focus-visible
+                    outline: none
+            textarea
+                &::placeholder
+                    color: #C9DCEE
+            .form__agree_text
+                color: #787575
+                text-align: center
+                a
+                    text-decoration: underline
+        .form__group
+            position: relative
+            .toggle-password
+                width: 23px
+                height: 15px
+                background-image: url(../../assets/img/icons/pass_show.svg)
+                background-size: contain
+                background-repeat: no-repeat
+                position: absolute
+                right: 30px
+                top: 56px
+                cursor: pointer
+        .active
+            .toggle-password
+                background-image: url(../../assets/img/icons/pass_hide.svg)
+                top: 58px
+        .form__links
+            display: flex
+            flex-direction: column
+            .item  
+                font-size: 1.2rem
+                color: #535050
+                font-weight: 500
+                a
+                 font-size: 1.2rem
+                 color: #527BE5   
+                 font-weight: 600
+        .error
+            input
+                border: 1px solid #E92D38
+            .form__group_error
+                color: #E92D38
+                font-size: 1.2rem
+        .form__group_user
+            text-align: center
+            font-size: 1.2rem
+            margin: 15px 0 0 0
+            display: flex
+            justify-content: center
+        .error span
+            color: #E92D38
+        .blocked span
+            color: #fff
+            background-color: #E92D38
+            padding: 5px 16px
+        .absent span
+            background-color: #A4B3C2
+            padding: 5px 16px
+            color: #fff
+    .auth__form
+        padding: 65px 3%
+        max-width: 500px
+        .form__btn.btn__send
+            margin-top: 45px
+            
+            
+
+                    
+
+@media (max-width: 992px)
+    .form__section 
+        .container
+            padding: 0
+        .form
+            padding: 35px 40px
+            .form__title
+                font-size: 2rem
+            .subtitle
+                font-size: 1.2rem
+            .form__list 
+                .form__group 
+                    label
+                        font-size: 1.5rem
+                    input
+                        padding: 20px 30px
+                    .form__agree_text 
+                        font-size: 1.3rem
+                    .toggle-password
+                        top: 54px
+                .active
+                    .toggle-password
+                        top: 58px
+            
+
+        .auth__form
+
+
+// Form styles ===================================
+
+
+
+// user cabinet ========================================================
+.sidebar
+    display: flex
+    .sidebar__content
+        background-color: #EFEFEF
+        padding: 20px 0 20px 30px
+        border-radius: 0 25px 25px 0
+        width: 100%
+        max-width: 80%
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        .sidebar__nav
+            margin: 0 0 100px 0
+            ul
+                display: flex
+                flex-direction: column
+                li
+                    width: 100%
+                    border-bottom: 1px solid #000
+                    padding: 0 0 5px 0
+                    margin: 0 0 15px 0
+                    a
+                        color: #262626
+                        font-size: 2rem
+                .active
+                    font-weight: 500
+                    a
+                        color: #628DB6
+        .sidebar__other
+            .sidebar__other_list
+                ul
+                    li
+                        a
+                            font-size: 2rem
+                    .logout
+                        a
+                            color: #E92D38
+                            
+
+.cabinet__info
+    .cabinet__banner
+    .succes
+        span
+            font-size: 4rem
+            color: #00BA4A
+            margin-bottom: 35px
+            display: inline-block
+    .user__info_list
+        margin: 60px 0
+        ul
+            display: flex
+            flex-direction: column
+            li
+                font-size: 3rem
+                &:not(:last-child)
+                    margin-bottom: 25px
+                span:first-child::after
+                    content: ':'
+                    
+
+@media (max-width: 992px)
+    .sidebar
+        .sidebar__content
+            max-width: initial
+            display: flex
+            padding: 10px
+            border-radius: 0 0 25px 25px
+            align-items: center
+            flex-direction: row
+            justify-content: start
+            .sidebar__nav
+                margin: 0 0
+                ul
+                    flex-direction: row
+                    align-items: center
+                    li
+                        border-bottom: none
+                        border-right: 1px solid #000
+                        width: initial
+                        margin: 0 0
+                        padding: 0 12px 0 12px
+                        a
+                            font-size: 1rem
+            .sidebar__other
+                .sidebar__other_list
+                    ul
+                        li
+                            padding: 0 12px
+                            a
+                                font-size: 1rem
+    
+    .cabinet__info
+        margin: 40px 0 0 0 
+        .cabinet__banner
+        .succes
+            span
+                font-size: 2.5rem
+        .user__info_list
+            margin: 30px 0
+            ul
+                li
+                    font-size: 2rem
+        .userinfo__edit
+            .btn__send
+                width: 100%
+// user cabinet ========================================================
+
+// page__error 404 500 =================================================
+.page__error
+    background-image: url(../../assets/img/error_bg.png)
+    background-size: contain
+    background-position: center center
+    background-repeat: no-repeat
+    padding: 55px 0
+    .row
+        display: flex
+        flex-direction: column
+        align-items: center
+    .page__error__title
+        font-size: 3rem
+        font-weight: 500
+        text-align: center
+        color: #535050
+        a
+            color: #628DB6
+    .page__error_code
+        font-size: 26rem
+        font-weight: 500
+        color: #72A5D6
+        text-align: center
+        margin: 60px 0
+    .page__error_txt
+        .txt
+            font-size: 2.4rem
+            text-align: center
+            margin-bottom: 15px
+            font-weight: 500
+
+@media (max-width: 992px)
+    .page__error
+        .page__error__title
+            font-size: 2rem
+        .page__error_code
+            font-size: 12rem
+            margin: 50px 0
+        .page__error_txt
+            .txt
+                font-size: 1.8rem
+
+// page__error 404 500 =================================================
