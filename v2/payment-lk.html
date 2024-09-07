@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Redmine</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+  <body>
+    
+<header class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-4 header__logo">
+                <a href="/">
+                    <img src="assets/img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="col-lg-6 header__nav">
+                <nav>
+                    <ul class="header__nav_list">
+                        <li>
+                            <a href="#">О сервисе</a>
+                        </li>
+                        <li>
+                            <a href="#">Применение</a>
+                        </li>
+                        <li>
+                            <a href="#">Функции</a>
+                        </li>
+                        <li>
+                            <a href="#">Преимущества</a>
+                        </li>
+                        <li>
+                            <a href="#">Стоимость</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-6 col-8 header__burger_nav">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="cabinet__page page__section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-12 sidebar">
+                <div class="sidebar__content">
+                    <div class="sidebar__nav">
+                        <ul>
+                            <li class="active"><a href="">Профиль</a></li>
+                            <li><a href="">Платежи</a></li>
+                            <li><a href="">Документация</a></li>
+                            <li><a href="">Обратная связь</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar__other">
+                        <div class="sidebar__other_list">
+                            <ul>
+                                <li class="logout"><a href="">Выход</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9 col-12 cabinet__info">
+                <h1 class="h1__title">Список платежей</h1>
+                <div class="cabinet__payment">
+                    <div class="userinfo__edit">
+                        <button type="submit" class="form__btn btn__send">Оплатить подписку</button>
+                    </div>
+                    <div class="payment__table pc">
+                        <div class="table__header">
+                            <div class="item">
+                                <div class="title">Начало</div>
+                            </div>
+                            <div class="item">
+                                <div class="title">Конец</div>
+                            </div>
+                            <div class="item">
+                                <div class="title">Тариф</div>
+                            </div>
+                            <div class="item">
+                                <div class="title">Цена</div>
+                            </div>
+                            <div class="item">
+                                <div class="title">Статус оплаты</div>
+                            </div>
+                        </div>
+                        <div class="table__body">
+                            <div class="table__body_row">
+                                <div class="item">
+                                    <div class="info">13.03.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">13.04.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">Стандартный</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">0 руб.</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info check"></div>
+                                </div>
+                            </div>
+                            <div class="table__body_row">
+                                <div class="item">
+                                    <div class="info">14.04.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">14.05.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">Премиум</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">0 руб.</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info check"></div>
+                                </div>
+                            </div>
+                            <div class="table__body_row">
+                                <div class="item">
+                                    <div class="info">15.05.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">15.06.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">Стандартный</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">5000 руб.</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info none"></div>
+                                </div>
+                            </div>
+                            <div class="table__body_row">
+                                <div class="item">
+                                    <div class="info">16.06.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">16.07.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">Премиум</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">10000 руб.</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info none"></div>
+                                </div>
+                            </div>
+                            <div class="table__body_row">
+                                <div class="item">
+                                    <div class="info">17.07.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">17.08.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">Стандартный</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">0 руб.</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info check"></div>
+                                </div>
+                            </div>
+                            <div class="table__body_row">
+                                <div class="item">
+                                    <div class="info">18.07.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">18.09.2024</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">Премиум</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info">10000 руб.</div>
+                                </div>
+                                <div class="item">
+                                    <div class="info none"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__pagination">
+                            <div class="table__pagination_container">
+                                <a href="" class="prev arrow"></a>
+                                <div class="pages">
+                                    <a href="" class="active">1</a>
+                                    <a href="">2</a>
+                                    <a href="">3</a>
+                                    <div class="other">...</div>
+                                </div>
+                                <a href="" class="next arrow"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="payment__table mobile">
+                        <div class="payment__table_body">
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="title">Начало</div>
+                                    <div class="info">13.01.2024</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Конец</div>
+                                    <div class="info">13.02.2024</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Тариф</div>
+                                    <div class="info">Стандартный</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Цена</div>
+                                    <div class="info">0 руб.</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Статус оплаты</div>
+                                    <div class="info check"><div class="img"></div></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="title">Начало</div>
+                                    <div class="info">14.02.2024</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Конец</div>
+                                    <div class="info">14.03.2024</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Тариф</div>
+                                    <div class="info">Премиум</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Цена</div>
+                                    <div class="info">0 руб.</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Статус оплаты</div>
+                                    <div class="info check"><div class="img"></div></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="title">Начало</div>
+                                    <div class="info">15.03.2024</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Конец</div>
+                                    <div class="info">15.04.2024</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Тариф</div>
+                                    <div class="info">Стандартный</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Цена</div>
+                                    <div class="info">5000 руб.</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Статус оплаты</div>
+                                    <div class="info none"><div class="img"></div></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="title">Начало</div>
+                                    <div class="info">16.04.2024</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Конец</div>
+                                    <div class="info">16.05.2024</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Тариф</div>
+                                    <div class="info">Премиум</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Цена</div>
+                                    <div class="info">5000 руб.</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Статус оплаты</div>
+                                    <div class="info none"><div class="img"></div></div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item__content">
+                                    <div class="title">Начало</div>
+                                    <div class="info">17.05.2024</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Конец</div>
+                                    <div class="info">17.06.2024</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Тариф</div>
+                                    <div class="info">Стандартный</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Цена</div>
+                                    <div class="info">0 руб.</div>
+                                </div>
+                                <div class="item__content">
+                                    <div class="title">Статус оплаты</div>
+                                    <div class="info check"><div class="img"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__pagination">
+                            <div class="table__pagination_container">
+                                <a href="" class="prev arrow"></a>
+                                <div class="pages">
+                                    <a href="" class="active">1</a>
+                                    <a href="">2</a>
+                                    <a href="">3</a>
+                                    <div class="other">...</div>
+                                </div>
+                                <a href="" class="next arrow"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 footer__logo">
+                <div class="logo">OOO «Симплекс 2.0»</div>
+                <div class="txt info">ИНН/КПП: 9719018363/771901001 <br> ОГРН: 1217700402578</div>
+            </div>
+            <div class="col-lg-4 footer__nav">
+                <ul>
+                    <li><a href="">О сервисе</a></li>
+                    <li><a href="">Преимущества</a></li>
+                    <li><a href="">Применение</a></li>
+                    <li><a href="">Стоимость</a></li>
+                    <li><a href="">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4 footer__contact">
+                <div class="title">Контактные данные</div>
+                <div class="txt info">Юридический адрес: 105118, г. Москва, проспект Буденного, д. 30А, офис 402
+                </div>
+                <div class="txt info">Телефон: <a href="tel:+79264265555">+7(926)426-55-55</a></div>
+                <div class="txt info">Почта: <a href="mailto:info@simplex-software.ru">info@simplex-software.ru</a></div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+    <script src="assets/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
